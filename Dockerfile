@@ -49,8 +49,11 @@ RUN bundle install && \
 COPY package.json yarn.lock ./
 RUN yarn install --frozen-lockfile
 
-# Copy application code
+# Copy application files
 COPY . .
+
+# Add execute permission to render-build.sh
+RUN chmod +x bin/render-build.sh
 
 # Run build script
 RUN ./bin/render-build.sh
