@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets",
-    "build:css": "NODE_OPTIONS=--openssl-legacy-provider tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css"
+    "build:css": "NODE_OPTIONS=--openssl-legacy-provider tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider rails server"
   },
   "dependencies": {
     "@babel/plugin-proposal-private-methods": "^7.18.6",
