@@ -11,4 +11,13 @@ environment.plugins.append(
   })
 );
 
+// 修正: 不要なプロパティを削除
+environment.config.merge({
+  node: {
+    __dirname: true,
+    __filename: true,
+    global: true,
+  }
+});
+
 module.exports = environment;
