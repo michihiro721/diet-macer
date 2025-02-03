@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/rails/tailwindcss-rails.git
-  revision: 25e3a3b499010255f7fc23601cd49a68036d29c7
+  revision: 5a9dd5eb4a269261eef0f0f1f1b2ea47cd2dea71
   branch: main
   specs:
-    tailwindcss-rails (4.0.0.rc2)
+    tailwindcss-rails (4.0.0)
       railties (>= 7.0.0)
       tailwindcss-ruby (~> 4.0)
 
@@ -184,7 +184,7 @@ GEM
     puma (6.5.0)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.1.8)
+    rack (3.1.9)
     rack-proxy (0.7.7)
       rack
     rack-session (2.1.0)
@@ -279,13 +279,13 @@ GEM
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
     stringio (3.1.2)
-    tailwindcss-ruby (4.0.0)
-    tailwindcss-ruby (4.0.0-aarch64-linux-gnu)
-    tailwindcss-ruby (4.0.0-aarch64-linux-musl)
-    tailwindcss-ruby (4.0.0-arm64-darwin)
-    tailwindcss-ruby (4.0.0-x86_64-darwin)
-    tailwindcss-ruby (4.0.0-x86_64-linux-gnu)
-    tailwindcss-ruby (4.0.0-x86_64-linux-musl)
+    tailwindcss-ruby (4.0.3)
+    tailwindcss-ruby (4.0.3-aarch64-linux-gnu)
+    tailwindcss-ruby (4.0.3-aarch64-linux-musl)
+    tailwindcss-ruby (4.0.3-arm64-darwin)
+    tailwindcss-ruby (4.0.3-x86_64-darwin)
+    tailwindcss-ruby (4.0.3-x86_64-linux-gnu)
+    tailwindcss-ruby (4.0.3-x86_64-linux-musl)
     thor (1.3.2)
     timeout (0.4.3)
     turbo-rails (2.0.11)
@@ -342,7 +342,7 @@ DEPENDENCIES
   selenium-webdriver
   sprockets-rails
   stimulus-rails
-  tailwindcss-rails (~> 4.0.0.rc1)!
+  tailwindcss-rails (~> 4.0.0)!
   turbo-rails
   tzinfo-data
   web-console
